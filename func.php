@@ -35,22 +35,17 @@ if(!!$isPassed){
 }
 
 
-function statem($a, $b, $c){
-
-    if($a > $b){
-
-        if($a > $b){
-
+function statem($a, $b, $c) {
+    if ($a > $b) {
+        if ($c) { // Assuming $c is meant to be a condition
             return "greater";
-        } elseif(premid) {
+        } elseif ($b > $a) { // Example of a valid comparison for `elseif`
             return "lesser";
-        } else{
-            jkjgjfj
+        } else {
+            return "equal"; // Default fallback if no other condition is met
         }
     } else {
-        return "lesser";
-    }
-}
+        return "lesser";}}
 
 $checks = statem(3,5,9);
 
