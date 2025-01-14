@@ -1,0 +1,19 @@
+Classes and Objects:
+The User class defines a blueprint for creating user objects.
+Objects like $user, $admin, and $moderator are created from these classes.
+
+
+Encapsulation:
+Properties like $name and $email are private, meaning they can only be accessed through methods (getters and setters).
+
+
+Inheritance:
+The Admin and Moderator classes extend the User class, reusing its properties and methods.
+
+
+Polymorphism:
+Both Admin and Moderator classes override the displayInfo method to provide additional information.
+
+
+Constructors:
+The __construct method is used to initialize object properties.
